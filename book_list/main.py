@@ -1,10 +1,13 @@
 import random
+import pathlib
 
 while True:
     action = input(">")
 
+    path = pathlib.Path(__file__).parent.resolve()
+
     if action == "add":
-        file = open("/home/sat/Documents/Code/Python/personal_programs/book_list/list.txt", "a")
+        file = open("{}/list.txt".format(path), "a")
 
         added_book = input("Book name:")
         genre = input("genre:")
@@ -12,19 +15,19 @@ while True:
         file.write(added_book + "|" + genre + "\n")
 
     elif action == "remove":
-        file = open("/home/sat/Documents/Code/Python/personal_programs/book_list/list.txt", "r")
+        file = open("{}/list.txt".format(path), "r")
         book = input("Name:")
         lines = file.readlines()
         file.close()
 
-        file = open("/home/sat/Documents/Code/Python/personal_programs/book_list/list.txt", "w")
+        file = open("{}/list.txt".format(path), "w")
         for line in lines:
             if book not in line:
                 file.write(line)
         file.close()
 
     elif action == "random":
-        afile = open("/home/sat/Documents/Code/Python/personal_programs/book_list/list.txt", "r")
+        afile = open("{}/list.txt".format(path), "r")
         line = next(afile)
         for num, aline in enumerate(afile, 2):
             if random.randrange(num):
@@ -33,7 +36,7 @@ while True:
         print("{}, Genre: {}".format(line[0], line[1]))
 
     elif action == "genre":
-        file = open("/home/sat/Documents/Code/Python/personal_programs/book_list/list.txt", "r")
+        file = open("{}/list.txt".format(path), "r")
         genre = input("Genre: ")
 
         for line in file.readlines():
@@ -42,7 +45,7 @@ while True:
                 print(line[0])
 
     elif action == "list":
-        file = open("/home/sat/Documents/Code/Python/personal_programs/book_list/list.txt", "r")
+        file = open("{}/list.txt".format(path), "r")
 
         for i, line in enumerate(file):
             line = line.split("|")
