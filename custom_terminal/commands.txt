@@ -1,0 +1,2 @@
+a|echo hello
+speak|python3 /home/sat/Documents/Code/Python/personal_programs/custom_terminal/custom_commands/speech.py

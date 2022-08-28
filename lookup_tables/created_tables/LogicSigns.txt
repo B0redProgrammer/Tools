@@ -1,0 +1,38 @@
+
+⊃| A ⊃B is false when A is true and B is false but true otherwise.
+⇔| A⇔B is true only if both A and B are false, or both A and B are true.
+¬|The statement  is true if and only if ¬A is false.
+\mathbb {D} |Domain
+∧|The statement A ∧ B is true if A and B are both true; otherwise, it is false.
+∨|The statement A ∨ B is true if A or B (or both) are true; if both are false, the statement is false.
+⊻|The statement A ⊻ B is true when either A or B, but not both, are true.
+⊤|The statement ⊤ is unconditionally true.
+⊥|The statement ⊥ is unconditionally false. (The symbol ⊥ may also refer to perpendicular lines.)
+∀|∀ x: P(x) or (x) P(x) means P(x) is true for all x.
+∃|∃ x: P(x) means there is at least one x such that P(x) is true.
+∃!|∃! x: P(x) means there is exactly one x such that P(x) is true.
+≔|x ≔ y or x ≡ y means x is defined to be another name for y (but note that ≡ can also mean other things, such as congruence).
+⊢|x ⊢ y means x proves (syntactically entails) y
+:⇔|P :⇔ Q means P is defined to be logically equivalent to Q.
+⊨|x ⊨ y means x models (semantically entails) y
+⊼|NAND operator
+⊽|NOR operator
+⋅|and
+^|and
+&|and
++|or
+∨|or
+'|not - negation
+x|not - negation
+¬|not - negation
+!|not - negation
+⊕|exclusive; or; xor
+~|negation
+⇒|implies
+⇔|equivalent - if and only if
+↔|equivalent - if and only if
+∀|for all
+∃|there exists
+∄|there does not exist
+∴|therefore
+∵|because / since

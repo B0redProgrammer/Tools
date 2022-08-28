@@ -1,0 +1,1 @@
+⊃|A⊃ B is false when A is true and B is false, otherwise true

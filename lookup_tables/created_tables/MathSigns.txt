@@ -1,0 +1,166 @@
+lim f(x)|limit value of a function
+ε|represents a very small number, near zero
+e|e = lim (1+1/x)x , x→∞
+y'|derivative - Lagrange's notation
+y''|derivative of a derivative
+y^(n)|n times derivation
+dy/dx|derivative - Leibniz's notation
+d²y/dx²|derivative of derivative
+dⁿy/dxⁿ|nth derivation
+Dxy|derivative-Euler's notation
+∫|opposite of derivation
+∫∫|double integral
+∫∫∫|triple integral
+∮|line integral
+∯|closed surface integral
+∰|closed volume integral
+[a,b]|[a,b] = {x | a ≤ x ≤ b}
+(a,b)|(a,b) = {x | a < x < b}
+i|√-1
+z*|z = a+bi → z*=a-bi
+z|z = a+bi → z = a-bi
+Re(z)|z = a+bi → Re(z)=a
+Im(z)|z = a+bi → Im(z)=b
+arg(z)|The angle of the radius in the complex plane
+∇|gradient / divergence operator
+^x|unit vector
+x * y|y(t) = x(t) * h(t)
+∞|infinity symbol
+{ }|set
+A ∩ B|objects that belong to set A and set B
+A ∪ B|objects that belong to set A or set B
+A ⊆ B|A is a subset of B. set A is included in set B.
+A ⊂ B|A is a subset of B, but A is not equal to B.
+A ⊄ B|set A is not a subset of set B
+A ⊃ B|A is a superset of B, but B is not equal to A.
+A ⊅ B|set A is not a superset of set B
+2^A|all subsets of A
+A = B|both sets have the same members
+A^c|all the objects that do not belong to set A
+A \ B|objects that belong to A and not to B
+A - B|objects that belong to A and not to B
+A ∆ B|objects that belong to A or B but not to their intersection
+A ⊖ B|objects that belong to A or B but not to their intersection
+a ∈ A|set membership
+x ∉ A|no set membership
+(a,b)|collection of 2 elements
+A × B|set of all ordered pairs from A and B
+#A|the number of elements of set A
+Ø|empty set
+U|set of all possible values
+N|{0, 1, 2, 3, 4, ...}
+N1|{0, 1, 2, 3, 4, ...}
+Z|Integers
+Q|{x  x=a/b, a,b∈Z}
+R|{x | -∞ < x <∞}
+C|{z | z=a+bi, -∞<a<∞,      -∞<b<∞}
+n!|n! = 1⋅2⋅3⋅...⋅n
+nPk|n!/(n-k)!
+(n   k)|n!/(k!*[n-k]!)
+P(A)|probability of event A
+P(A ⋂ B)|probability that of events A and B
+P(A ⋃ B)|probability that of events A or B
+f(x)|P(a≤x≤b)=∫f(x)dx
+F(x)|F(x) = P(X≤ x)
+μ|mean of population values
+E(X)|expected value of random variable X
+var(X)|variance of random variable X
+σ²|variance of population values
+cov(X,Y)|covariance of random variables X and Y
+corr(X,Y)|correlation of random variables X and Y
+ρX,Y|correlation of random variables X and Y
+∑|summation - sum of all values in range of series
+∑∑|double summation
+Mo|value that occurs most frequently in population
+MR|MR = (xmax+xmin)/2
+Q1|25% of population are below this value
+Q2|50% of population are below this value = median of samples
+Q3|75% of population are below this value
+x|average / arithmetic mean
+s²|population samples variance estimator
+s|population samples standard deviation estimator
+zx|zx = (x-x) / sx
+X ~|distribution of random variable X
+N(μ,σ2)|gaussian distribution
+U(a,b)|equal probability in range a,b 
+exp(λ)| f(x) = λe^(-λx), x≥0
+gamma(c, λ)|f (x) = λ c x^(c-1)*e^(-λx) / Γ(c), x≥0
+χ^2(k)|f(x) = x^(k/2-1)*e^(-x/2) / (2^(k/2) Γ(k/2) )
+F(k1, k2)|F distribution
+Bin(n,p)|f(k) = nCk p^k * (1-p)^(n-k)
+Poisson(λ)|f(k) = λ^k*e^(-λ) / k!
+Geom(p)|f(k) = p(1-p)^k
+HG(N,K,n)|hyper-geometric distribution
+Bern(p)|Bernoulli distribution
+·|scalar product
+×|vector product
+A⊗B|tensor product of A and B
+(x,y)|inner product
+[]|matrix of numbers
+()|matrix of numbers
+det(A)|determinant of matrix A
+A^T|matrix Transpose
+A^†|matrix conjugate transpose
+A*|matrix conjugate transpose
+A^-1|AA-1 = I
+rank(A)|rank of matrix A
+dim(U)|dimension of matrix A
+x|unknown value to find
+=|identical to
+≜|equal by definition
+:=|equal by definition
+~|weak approximation
+≈|approximation
+∝|proportional to
+≪|much less than
+≫|much greater than
+()|calculate expression inside first
+[]|calculate expression inside first
+⌊x⌋|rounds number to lower integer
+⌈x⌉|rounds number to upper Integers
+f(x)|maps values of x to f(x)
+(f∘g)|(f ∘ g) (x) = f (g(x))
+∆|change / difference
+∆|Δ = b2 - 4ac
+∏|product - product of all values in range of series
+γ|γ = 0.5772156649...
+φ|golden ratio constant
+π|s the ratio between the circumference and diameter of a circle
+∠|angle
+∟|right angle
+°|degree
+'|arcminute, 1° = 60′
+''|arcsecond, 1′ = 60″
+AB|line from point A to point B
+⊥|perpendicular(90° angle)
+∥|parallel lines
+≅|equivalence of geometric shapes and size
+~|same shapes, not same size
+Δ|triangle shape
+rad|radians
+grad|gradians
+=|equality
+≠|inequality
+>|greater than
+<|less than
+≥|greater than or equal to
+≤|less than or equal to
++|addition
+-|subtraction
+±|both plus and minus operations
+*|multiplication
+×|multiplication
+⋅|multiplication
+÷|division
+/|division
+—|fraction
+mod|modulo
+%|modulo
+.|decimal point
+a^b|exponent
+√a|sqare root
+%|percent
+‰|per-mille
+ppm|per-million
+ppb|per-billion
+ppt|per-trillion
